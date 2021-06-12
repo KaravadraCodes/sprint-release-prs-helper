@@ -17,8 +17,9 @@ This is an initial setup of the application covering the basic functionality of 
 
 **Few things to take care**,
 1. Add all the repositories in Repositories class with your Team's name as a key from Team enum.
-2. Create a personal access token from Github and place it in Repository class.
-2. Provide your team's enum member in PullRequests class constructor's first argument at Program file.
+2. Add Github Repositories Owner name in the Repository class.
+3. Create a personal access token from Github and place it in Repository class.
+4. Provide your team's enum member in PullRequests class constructor's first argument at Program file.
 
 Once it is setup in machine with above steps, we will just need to replace the release branch name and title on every launch and utility will do the rest. :tada:
 
